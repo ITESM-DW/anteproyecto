@@ -28,7 +28,7 @@ body {
     width: 100%;
     min-height: 100%;
     margin: 10em;
-    padding: 1em;    
+    padding: 1em;
 }
 
 .content {
@@ -39,11 +39,28 @@ body {
 p {
     padding-left: 6em;
     padding-right: 6em;
-    
+
 }
 p::first-letter {
     color: #d1bf1d;
     font-size: 3em;
     margin: 0;
     padding: 0;
+}
+
+pre {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #f36d33;
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 1.6em;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1em 1.5em;
+    display: block;
+    word-wrap: break-word;
 }
