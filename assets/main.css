@@ -18,10 +18,15 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-.banner > time {
+.banner > span {
     text-align: left;
     font-size: 0.25em;
     text-align: center;
+}
+span {
+    text-align: left;
+    font-size: 0.25em;
+    text-align: center; 
 }
 
 .wrapper {
